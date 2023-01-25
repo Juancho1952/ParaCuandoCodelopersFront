@@ -1,10 +1,10 @@
 const Header = () => {
   return (
     <>
-      <div className="p-5">
-        <label className="relative block">
+      <div className="p-3 max-w-none grid justify-center">
+        <label className="relative">
           <input
-            className="w-full bg-white placeholder:font-italitc border border-slate-400 drop-shadow-md rounded-full py-2 pl-3 pr-10 focus:outline-none"
+            className="w-[350px] bg-white placeholder:font-italitc border border-slate-400 drop-shadow-md rounded-full py-2 pl-4 pr-10 focus:outline-none"
             placeholder="
                 What do you want to see in your city?"
             type="text"
@@ -24,6 +24,28 @@ const Header = () => {
             </svg>
           </span>
         </label>
+      </div>
+      <div className="p-3 max-w-none flex justify-center">
+        <button
+          type="button"
+          className="text-slate-400 py-1 px-1 mr-2  text-sm font-normal bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 "
+        >
+          Brands and Stores
+        </button>
+
+        <button
+          type="button"
+          className="text-slate-400 py-1 px-1 mr-2  text-sm font-normal bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200"
+        >
+          Artists and concerts
+        </button>
+
+        <button
+          type="button"
+          className="text-slate-400 py-1 px-1 mr-2  text-sm font-normal bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200"
+        >
+          Tourney
+        </button>
       </div>
 
       <div className="p-3">
@@ -85,14 +107,7 @@ const Header = () => {
         </svg>
       </div>
 
-      <div className="p-3">
-        <button
-          type="button"
-          className="py-4 px-5 mr-2 mb-2 text-sm font-medium bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200"
-        >
-          Marcas y tiendas
-        </button>
-      </div>
+      
     </>
   );
 };
