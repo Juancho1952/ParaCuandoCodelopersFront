@@ -1,3 +1,6 @@
+import Footer from './Footer';
+import Header from './Header';
+
 const Layout = () => {
   return (
     <>
@@ -69,6 +72,8 @@ const Layout = () => {
           </div>
         </div>
       </nav>
+      <Header></Header>
+      <Footer></Footer>
     </>
   );
 };
