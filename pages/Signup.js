@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Paracuando from '../Assets/SingupImg/Paracuando.png';
-import TextSignup from '../Assets/SingupImg/textlogin.png';
-import TextSignupbg from '../Assets/SingupImg/textloginbg.png';
+import TextSignup from '../Assets/SingupImg/textsignup.png';
+import TextSignupbg from '../Assets/SingupImg/textsignupbg.png';
 
 const Signup = () => {
   return (
@@ -9,11 +9,11 @@ const Signup = () => {
       <div className="flex">
         <div className='hidden sm:bg-[url("../Assets/SingupImg/bg-Signup.png")] sm:flex justify-center items-center content-center bg-cover bg-transparent bg-no-repeat h-screen w-full'>
           <Image
-            className="sm:w-2/4"
+            className="sm:w-3/2"
             src={TextSignup}
             alt="marcas, artistas y torneos"
           />
-          <Image className="w-1/4" src={TextSignupbg} alt="queretaro" />
+          <Image className="w-3/2" src={TextSignupbg} alt="queretaro" />
         </div>
         <div className="pt-9 w-full flex flex-col justify-center">
           <div className="w-full">
