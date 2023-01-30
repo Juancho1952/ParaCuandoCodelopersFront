@@ -1,11 +1,10 @@
 import Image from 'next/image';
 import ladygaga from '../Assets/Ladygaga.png';
 import pc from '../Assets/pc.png';
-import profile from '../Assets/PerfilFoto.png';
+import profile from '../Assets/profile.png';
 import tiendaropa from '../Assets/tiendapararopa.png';
 import vector from '../Assets/Vector.png';
 import Footer from '../components/Footer';
-
 
 
 const Profile = () => {
